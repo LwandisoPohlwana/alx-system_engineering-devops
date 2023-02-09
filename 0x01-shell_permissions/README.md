@@ -9,3 +9,7 @@
 4-empty (touch hello) a script that creates an empty file called hello
 
 5-execute (chmod u+x hello) a script that adds execute permission to the owner of the file hello
+
+6-multiple_permissions (chmod 554 hello) a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
+
+7-everybody (chmod 711 hello)  a script that adds execution permission to the owner, the group owner and the other users, to the file hello
