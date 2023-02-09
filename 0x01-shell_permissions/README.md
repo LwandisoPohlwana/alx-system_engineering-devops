@@ -17,3 +17,9 @@
 8-James_Bond (chmod 007 hello)  a script that sets the permission to the file hello as follows owner no permission at all, Group no permission at all and Other users all the permission
 
 9-John_Doe (chmod 753 hello) a script that sets the mode of the file hello to give the owner full permission, the group owner read and execute permissions and the other users the write and execute permissions
+
+10-mirror_permissions (chmod --reference=olleh hello) a script that sets the mode of the file hello the same as olleh’s mode
+
+11-directories_permissions
+
+12-directory_permissions (mkdir -m 751 my_dir)  a script that creates a directory called my_dir with permissions 751 in the working directory
