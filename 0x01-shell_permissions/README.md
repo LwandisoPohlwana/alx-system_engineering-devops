@@ -15,3 +15,5 @@
 7-everybody (chmod 711 hello)  a script that adds execution permission to the owner, the group owner and the other users, to the file hello
 
 8-James_Bond (chmod 007 hello)  a script that sets the permission to the file hello as follows owner no permission at all, Group no permission at all and Other users all the permission
+
+9-John_Doe (chmod 753 hello) a script that sets the mode of the file hello to give the owner full permission, the group owner read and execute permissions and the other users the write and execute permissions
